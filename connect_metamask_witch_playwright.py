@@ -24,6 +24,8 @@ def run(playwright):
     page.goto('chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html')
     page.locator('//html/body/div[1]/div/div[3]/div/div/form/div/div/input').fill('YOU PASSWORD')
 
+    # A partir disso, crie page1 = browser.new_page(), interaja com page1, der page.reload() para se rpossível
+    # interagir com a transação
 
     page.reload()
 
