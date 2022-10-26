@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright
 
 
-
+#                                                                                                  id extension/ dir manifest file
 path_to_extension = F"C:/Users\'YOU USER'\AppData\Local\Google\Chrome/User Data\Default\Extensions/nkbihfbeogaeaoehlefnkodbefgpgknn/10.20.0_0"
 user_data_dir = "C:/Users\'YOU USER'\AppData\Local\Google\Chrome/User Data\Default"
 
